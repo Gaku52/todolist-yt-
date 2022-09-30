@@ -69,6 +69,8 @@ function App() {
             <input
               type="text"
               onChange={(e) => handleChange(e)}
+              //入力欄の文字を作成後に""空欄にするためのvalue
+              value={inputText}
               className="inputText"
             />
             <input type="submit" value="作成" className="submitButton" />
